@@ -40,11 +40,11 @@ $$d = 2r \arcsin\left(\sqrt{\sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_
 ## ⚙️ Setup & Installation
 1. Install dependencies:
    ```bash
-   pip install flask flask-cors pymongo pandas openpyxl
+   pip install flask flask-cors pymongo pandas openpyxl```
 
 2. Run the Backend:
    ```bash
-   python app.py
+   python app.py```
    
    The server will start at http://127.0.0.1:5000
 
@@ -56,12 +56,12 @@ Method: POST
 
 Payload Format:
 
-JSON
+```JSON
 {
   "start": [8.4818, 76.9515],
   "selected": ["Napier Museum", "Lulu Mall Trivandrum", "Kovalam Beach"]
 }
-Success Response: A JSON object containing the status and an ordered route list with distances and coordinates.
+Success Response: A JSON object containing the status and an ordered route list with distances and coordinates.```
 
 
 
