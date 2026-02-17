@@ -56,11 +56,11 @@ Method: POST
 
 Payload Format:
 
- ```JSON
+JSON
 {
   "start": [8.4818, 76.9515],
   "selected": ["Napier Museum", "Lulu Mall Trivandrum", "Kovalam Beach"]
-}```
+}
 
 Success Response: A JSON object containing the status and an ordered route list with distances and coordinates.
 
